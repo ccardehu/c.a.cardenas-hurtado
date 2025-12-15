@@ -2,10 +2,10 @@
 # Site settings
 # -----------------------------------------------------------------------------
 
-title: Camilo A. Cárdenas-Hurtado # the website title (if blank, full name will be used instead)
+title: Camilo A. Cardenas-Hurtado # the website title (if blank, full name will be used instead)
 first_name: Camilo
 middle_name: # Alberto 
-last_name: Cárdenas-Hurtado
+last_name: Cardenas-Hurtado
 contact_note: >
   You can even add a little note about which of these is the best way to reach you.
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
