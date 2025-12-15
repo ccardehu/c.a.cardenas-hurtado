@@ -1,35 +1,52 @@
 {
   "basics": {
-    "name": "Albert Einstein",
+    "name": "Camilo A. Cárdenas Hurtado",
     "label": "Scientist",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "c.a.cardenas-hurtado (at) lse.ac.uke",
+    "url": "https://ccardehu.github.io/",
+    "summary": "Economist with a PhD In Statistics",
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
+      "address": "Room: COL.8.05",
+      "postalCode": "WC2A 2AE",
+      "city": "London",
+      "countryCode": "UK",
+      "region": "London"
     },
     "profiles": [
       {
         "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
+        "username": "ccardehu",
+        "url": "https://x.com/ccardehu"
       }
     ]
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "name": "London School of Economics and Political Science",
+      "position": "LSE Fellow",
+      "url": "www.lse.ac.uk/Statistics/People",
+      "startDate": "2023-09",
+      "endDate": "",
+      "summary": "",
+      "highlights": ["Relativity"]
+    },
+    {
+      "name": "London School of Economics and Political Science",
+      "position": "PhD Researcher",
+      "url": "www.lse.ac.uk/Statistics/People",
+      "startDate": "2019-09",
+      "endDate": "2023-08",
+      "summary": "",
+      "highlights": ["Relativity"]
+    },
+    {
+      "name": "Banco de la República de Colombia",
+      "position": "Specialized Economist",
+      "url": "www.banrep.gov.co",
+      "startDate": "2011-08",
+      "endDate": "2019-07",
+      "summary": "",
       "highlights": ["Relativity"]
     }
   ],
@@ -47,14 +64,14 @@
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "London School of Economics and Political Science",
+      "location": "London, UK",
+      "url": "www.lse.ac.uk/Statistics",
+      "area": "Statistics",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "10",
+      "startDate": "2019-09",
+      "endDate": "2023-07",
+      "score": "",
       "courses": ["Theory of Relativity"]
     }
   ],
