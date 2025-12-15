@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://c.a.cardenas-hurtado.github.io/al-folio/sitemap.xml
+Sitemap: https://ccardehu.github.io/sitemap.xml
