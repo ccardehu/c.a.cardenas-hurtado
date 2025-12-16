@@ -1,5 +1,36 @@
 ---
 ---
+<style>
+  div.bibtex.hidden,
+  div.abstract.hidden,
+  div.award.hidden {
+    display: none;
+  }
+</style>
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  // Toggle bibtex
+  document.querySelectorAll("a.bibtex").forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+      e.preventDefault();
+      var target = this.closest(".links").parentElement.querySelector("div.bibtex");
+      if (target) {
+        target.classList.toggle("hidden");
+      }
+    });
+  });
+  // Toggle abstract
+  document.querySelectorAll("a.abstract").forEach(function(btn) {
+    btn.addEventListener("click", function(e) {
+      e.preventDefault();
+      var target = this.closest(".links").parentElement.querySelector("div.abstract");
+      if (target) {
+        target.classList.toggle("hidden");
+      }
+    });
+  });
+});
+</script>
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -406,21 +437,21 @@
 
     {% if entry.award %}
       <!-- Hidden Award block -->
-      <div class="award hidden d-print-inline" style="display: none;">
+      <div class="award hidden d-print-inline">
         <p>{{ entry.award | markdownify }}</p>
       </div>
     {% endif %}
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract hidden" style="display: none;">
+      <div class="abstract hidden">
         <p>{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div class="bibtex hidden" style="display: none;">
+      <div class="bibtex hidden">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
@@ -429,7 +460,7 @@
 
     {% if entry.video and site.enable_video_embedding %}
       <!-- Hidden video block -->
-      <div class="abstract hidden" style="display: none;">
+      <div class="abstract hidden">
         <div style="text-align: center;">{% include video.liquid path=entry.video class="img-fluid rounded z-depth-1" controls=true %}</div>
       </div>
     {% endif %}
