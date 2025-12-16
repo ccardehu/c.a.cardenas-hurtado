@@ -7,12 +7,11 @@ dropdown: true
 children:
   - title: Research
     permalink: /publications/
+  - title: Vita
+    permalink: /cv/
   - title: divider
   - title: Teaching
     permalink: /teaching/
   - title: Code (GitHub)
     permalink: /repositories/
-  - title: divider
-  - title: CV
-    permalink: /cv/
 ---

@@ -1,10 +1,10 @@
 ---
 layout: cv
 permalink: /cv/
-title: CV
+title: Vita
 nav: true
 nav_order: 5
-cv_pdf: ccardehu_CV.pdf # you can also use external links here
+cv_pdf: ccardehu_CV.pdf
 description: Academic and professional experience.
 toc:
   sidebar: left
