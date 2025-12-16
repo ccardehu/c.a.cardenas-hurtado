@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Economist, Statistician, Data Scientists.
+subtitle: Economist, Statistician, Data Scientist.
 
 profile:
   align: right
@@ -15,10 +15,10 @@ profile:
     <p>London, UK</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 
 announcements:
-  enabled: true # includes a list of news items
+  enabled: false # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
   limit: 5 # leave blank to include all the news in the `_news` folder
 
@@ -34,4 +34,3 @@ My research focuses on methodological and computational developments of latent v
 
 Before transitioning into academia, I was an Economist at Banco de la República (Colombian Central Bank), working on macroeconomic analysis and forecasting.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.

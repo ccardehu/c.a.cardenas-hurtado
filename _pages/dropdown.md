@@ -1,13 +1,18 @@
 ---
 layout: page
-title: submenus
-nav: true
+title: Menu
+nav: false
 nav_order: 8
 dropdown: true
 children:
-  - title: bookshelf
-    permalink: /books/
+  - title: Research
+    permalink: /publications/
   - title: divider
-  - title: blog
-    permalink: /blog/
+  - title: Teaching
+    permalink: /teaching/
+  - title: Code (GitHub)
+    permalink: /repositories/
+  - title: divider
+  - title: CV
+    permalink: /cv/
 ---

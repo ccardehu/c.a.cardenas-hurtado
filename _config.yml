@@ -76,8 +76,8 @@ bing_site_verification:
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: random-space generator
-blog_description: a space for random thoughts
+blog_name: random-spaces
+blog_description: A space for random thoughts
 permalink: /blog/:year/:title/
 lsi: false
 
@@ -286,14 +286,14 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: none
   group_order: descending
 
 enable_publication_badges:
-  altmetric: true
-  dimensions: true
-  google_scholar: true
-  inspirehep: true
+  altmetric: false
+  dimensions: false
+  google_scholar: false
+  inspirehep: false
 
 filtered_bibtex_keywords:
   - abbr
