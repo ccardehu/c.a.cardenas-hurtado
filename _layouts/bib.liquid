@@ -81,7 +81,7 @@
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
           {%- if forloop.last and author_array_limit == author_array_size %}
-            {{ site.data[site.active_lang].strings.bibliography.last_author_prefix }}&nbsp;
+            and&nbsp;
           {% endif -%}
         {% endif %}
         {%- if author_is_self -%}
@@ -205,7 +205,7 @@
         <a href="http://arxiv.org/abs/{{ entry.arxiv }}" class="btn btn-sm z-depth-0" role="button" target="_blank" rel="noopener noreferrer">arXiv</a>
       {% endif %}
       {% if entry.bibtex_show %}
-        <a class="bibtex btn btn-sm z-depth-0" role="button" onclick="toggleBibBlock(this, 'bibtex')">BIB</a>
+        <a class="bibtex btn btn-sm z-depth-0" role="button" onclick="toggleBibBlock(this, 'bibtex')">Bib</a>
       {% endif %}
       {% if entry.html %}
         {% if entry.html contains '://' %}
@@ -357,21 +357,21 @@
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract-content hidden" style="display: none;">
-        <p>{{ entry.abstract }}</p>
+      <div class="abstract-content hidden" style="display: none; background-color: var(--global-code-bg-color, #2d2d2d); padding: 15px; border-radius: 6px; margin-top: 10px; text-align: justify;">
+        <p style="margin: 0;">{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.tldr %}
       <!-- Hidden tldr block -->
-      <div class="tldr-content hidden" style="display: none;">
-        <p>{{ entry.tldr }}</p>
+      <div class="tldr-content hidden" style="display: none; background-color: var(--global-code-bg-color, #2d2d2d); padding: 15px; border-radius: 6px; margin-top: 10px; text-align: justify;">
+        <p style="margin: 0;">{{ entry.tldr }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div class="bibtex-content hidden" style="display: none;">
+      <div class="bibtex-content hidden" style="display: none; background-color: var(--global-code-bg-color, #2d2d2d); padding: 15px; border-radius: 6px; margin-top: 10px;">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: menu
+title: Menu
 nav: true
 nav_order: 8
 dropdown: true
@@ -9,7 +9,6 @@ children:
     permalink: /publications/
   - title: Vita
     permalink: /cv/
-  - title: divider
   - title: Teaching
     permalink: /teaching/
   - title: Code (GitHub)

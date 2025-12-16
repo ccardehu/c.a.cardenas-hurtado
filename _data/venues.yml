@@ -1,5 +1,5 @@
 "Psychometrika":
-  url: www.cambridge.org/core/journals/psychometrika
+  url: https://www.cambridge.org/core/journals/psychometrika
   color: "#024069"
 
 "arXiv":
@@ -13,3 +13,7 @@
 "BdE":
   url: https://imstat.org/journals-and-publications/annals-of-applied-statistics/
   color: "#F8F8F8"
+
+"DyS":
+  url: https://revistas.uniandes.edu.co/index.php/dys/index
+  color: "#e3b901"
