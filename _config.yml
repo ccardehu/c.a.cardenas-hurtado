@@ -286,7 +286,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: none
   group_order: descending
 
 enable_publication_badges:
