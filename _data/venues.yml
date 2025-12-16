@@ -1,9 +1,15 @@
-"AJP":
-  url: https://aapt.scitation.org/journal/ajp
-  color: "#00369f"
+"Psychometrika":
+  url: www.cambridge.org/core/journals/psychometrika
+  color: "#024069"
 
-"PhysRev":
-  url: https://journals.aps.org/
+"arXiv":
+  url: https://arxiv.org/
+  color: "#B31B1B"
 
-"Vision":
-  color: "#009f36"
+"AoAS":
+  url: https://imstat.org/journals-and-publications/annals-of-applied-statistics/
+  color: "#F8B8C3"
+
+"BdE":
+  url: https://imstat.org/journals-and-publications/annals-of-applied-statistics/
+  color: "#F8F8F8"
