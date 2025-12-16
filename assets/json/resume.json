@@ -42,28 +42,32 @@
       "institution": "London School of Economics and Political Science",
       "location": "London, UK",
       "area": "Statistics",
-      "endDate": "2023-11",
+      "startDate": "2019-09",
+      "endDate": "2023-08",
       "studyType": "PhD"
     },
     {
       "institution": "Universidad Nacional de Colombia",
       "location": "Bogotá D.C, Colombia",
       "area": "Statistics",
-      "endDate": "2017-04",
+      "startDate": "2015-01",
+      "endDate": "2017-01",
       "studyType": "MSc"
     },
     {
       "institution": "Universidad Nacional de Colombia",
       "location": "Bogotá D.C, Colombia",
       "area": "Statistics",
-      "endDate": "2014-10",
+      "startDate": "2013-06",
+      "endDate": "2014-06",
       "studyType": "Graduate Diploma"
     },
     {
       "institution": "Universidad Nacional de Colombia",
       "location": "Bogotá D.C, Colombia",
       "area": "Economics",
-      "endDate": "2011-10",
+      "startDate": "2007-01",
+      "endDate": "2011-06",
       "studyType": "BSc"
     }
   ]
