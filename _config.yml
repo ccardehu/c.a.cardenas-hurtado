@@ -263,9 +263,9 @@ display_categories:
 
 scholar:
   last_name:
-    - Einstein
+    - Cárdenas-Hurtado
   first_name:
-    - Albert
+    - Camilo
     - A.
 
   style: apa
@@ -286,7 +286,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: none
+  group_by: year
   group_order: descending
 
 enable_publication_badges:
