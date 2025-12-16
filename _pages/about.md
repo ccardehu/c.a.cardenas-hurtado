@@ -1,6 +1,6 @@
 ---
 layout: about
-title: About
+title: about
 permalink: /
 subtitle: Economist, Statistician, Data Scientist.
 
@@ -32,5 +32,5 @@ I am currently an LSE Fellow in the Department of Statistics at the London Schoo
 
 My research focuses on methodological and computational developments of latent variable models, with applications in the social and behavioural sciences. From a technical perspective, my work ties elements from stochastic and high-dimensional constrained optimisation, stochastic-approximation and regularisation techniques in marginal maximum likelihood estimation problems, distributional regression models, and semi-parametric regression models.
 
-Before transitioning into academia, I was an Economist at Banco de la República (Colombian Central Bank), working on macroeconomic analysis and forecasting.
+Before transitioning into academia, I was an Economist at Banco de la República de Colombia (Colombian Central Bank), working on macroeconomic analysis and forecasting.
 

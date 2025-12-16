@@ -1,7 +1,7 @@
 ---
 layout: page
 permalink: /publications/
-title: Research
+title: research
 description: List of publications.
 nav: true
 nav_order: 2
