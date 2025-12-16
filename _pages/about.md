@@ -11,7 +11,7 @@ profile:
   more_info: >
     <p>Office: COL.8.05</p>
     <p>Department of Statistics</p>
-    <p>London School of Economics and Political Science</p>
+    <p>London School of Economics and Political Science (LSE)</p>
     <p>London, UK</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
