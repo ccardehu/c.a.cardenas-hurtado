@@ -16,8 +16,8 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publications/";
           },
-        },{id: "nav-cv",
-          title: "CV",
+        },{id: "nav-vita",
+          title: "Vita",
           description: "Academic and professional experience.",
           section: "Navigation",
           handler: () => {
@@ -29,6 +29,13 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/publications/";
+              },
+            },{id: "dropdown-vita",
+              title: "Vita",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/cv/";
               },
             },{id: "dropdown-teaching",
               title: "Teaching",
@@ -43,13 +50,6 @@ ninja.data = [{
               section: "Dropdown",
               handler: () => {
                 window.location.href = "/repositories/";
-              },
-            },{id: "dropdown-cv",
-              title: "CV",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/cv/";
               },
             },{id: "post-a-post-with-plotly-js",
         
