@@ -7,8 +7,7 @@ first_name: Camilo
 middle_name: 
 last_name: Cárdenas Hurtado
 contact_note: >
-description: >
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+description: > Camilo Cárdenas-Hurtado's website
 footer_text: >
 keywords: latent variable models, psychometrics, statistics, machine learning, artificial intelligence, deep learning
 lang: en
@@ -294,7 +293,7 @@ scholar:
   details_dir: bibliography
   details_link: Details
 
-  query: "@*"
+#  query: "@*"
   group_by: none
   group_order: descending
 
