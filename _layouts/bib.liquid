@@ -1,5 +1,18 @@
 ---
 ---
+<style>
+.links .btn {
+  border: 1px solid var(--global-theme-color, #00ab6c) !important;
+  padding: 2px 8px !important;
+  margin: 0 !important;
+  font-size: 0.75rem !important;
+  line-height: 1.4 !important;
+}
+.links .btn:hover {
+  background-color: var(--global-theme-color, #00ab6c) !important;
+  color: white !important;
+}
+</style>
 <div class="row">
   {% if site.enable_publication_thumbnails %}
     <div class="col col-sm-2 abbr">
@@ -80,9 +93,7 @@
 
         {%- if forloop.length > 1 -%}
           {% if forloop.first == false %},&nbsp;{% endif %}
-          {%- if forloop.last and author_array_limit == author_array_size %}
-            and&nbsp;
-          {% endif -%}
+          {%- if forloop.last and author_array_limit == author_array_size %}and&nbsp;{% endif -%}
         {% endif %}
         {%- if author_is_self -%}
           <em>
@@ -186,7 +197,7 @@
     </div>
 
     <!-- Links/Buttons -->
-    <div class="links">
+    <div class="links" style="display: flex; flex-wrap: wrap; gap: 4px; margin-top: 8px;">
       {% if entry.award %}
         <a class="award btn btn-sm z-depth-0" role="button">
           {%- if entry.award_name %}{{ entry.award_name }}{% else %}{{ site.data[site.active_lang].strings.bibliography.awarded }}{% endif -%}
