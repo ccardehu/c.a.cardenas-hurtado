@@ -4,9 +4,11 @@
 .links .btn {
   border: 1px solid var(--global-theme-color, #00ab6c) !important;
   padding: 2px 8px !important;
-  margin: 0 !important;
-  font-size: 0.75rem !important;
-  line-height: 1.4 !important;
+  margin: 1 !important;
+  font-size: 0.65rem !important;
+  line-height: 1.2 !important;
+  color: var(--global-theme-color, #00ab6c) !important;
+  background-color: transparent !important;
 }
 .links .btn:hover {
   background-color: var(--global-theme-color, #00ab6c) !important;
@@ -368,21 +370,21 @@
 
     {% if entry.abstract %}
       <!-- Hidden abstract block -->
-      <div class="abstract-content hidden" style="display: none; background-color: var(--global-code-bg-color, #2d2d2d); padding: 15px; border-radius: 6px; margin-top: 10px; text-align: justify;">
-        <p style="margin: 0;">{{ entry.abstract }}</p>
+      <div class="abstract-content hidden" style="display: none; background-color: var(--global-bg-color); border: 1px solid var(--global-divider-color, #ddd); padding: 15px; border-radius: 6px; margin-top: 10px; text-align: justify;">
+        <p style="margin: 0; color: var(--global-text-color);">{{ entry.abstract }}</p>
       </div>
     {% endif %}
 
     {% if entry.tldr %}
       <!-- Hidden tldr block -->
-      <div class="tldr-content hidden" style="display: none; background-color: var(--global-code-bg-color, #2d2d2d); padding: 15px; border-radius: 6px; margin-top: 10px; text-align: justify;">
-        <p style="margin: 0;">{{ entry.tldr }}</p>
+      <div class="tldr-content hidden" style="display: none; background-color: var(--global-bg-color); border: 1px solid var(--global-divider-color, #ddd); padding: 15px; border-radius: 6px; margin-top: 10px; text-align: justify;">
+        <p style="margin: 0; color: var(--global-text-color);">{{ entry.tldr }}</p>
       </div>
     {% endif %}
 
     {% if entry.bibtex_show %}
       <!-- Hidden bibtex block -->
-      <div class="bibtex-content hidden" style="display: none; background-color: var(--global-code-bg-color, #2d2d2d); padding: 15px; border-radius: 6px; margin-top: 10px;">
+      <div class="bibtex-content hidden" style="display: none; background-color: var(--global-bg-color); border: 1px solid var(--global-divider-color, #ddd); padding: 15px; border-radius: 6px; margin-top: 10px;">
         {% highlight bibtex %}
         {{- entry.bibtex | hideCustomBibtex -}}
         {% endhighlight %}
