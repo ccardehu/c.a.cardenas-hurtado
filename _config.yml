@@ -10,7 +10,7 @@ contact_note: >
 description: >
   A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
 footer_text: >
-keywords: Cárdenas-Hurtado, latent variables, psychometrics, statistics
+keywords: latent variable models, psychometrics, statistics, machine learning, artificial intelligence, deep learning
 lang: en
 icon: 🍉
 
@@ -44,10 +44,10 @@ repo_trophies:
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
-posts_in_search: true
-bib_search: true
+search_enabled: false
+socials_in_search: false
+posts_in_search: false
+bib_search: false
 
 # Dimensions
 max_width: 930px
@@ -129,12 +129,12 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  books:
-    output: true
-  news:
-    defaults:
-      layout: post
-    output: true
+#  books:
+#    output: true
+#  news:
+#    defaults:
+#      layout: post
+#    output: true
   projects:
     output: true
 
@@ -264,9 +264,18 @@ display_categories:
 scholar:
   last_name:
     - Cárdenas-Hurtado
+    - Cárdenas Hurtado
+    - Cárdenas
+    - Hurtado
+    - Cardenas-Hurtado
+    - Cardenas Hurtado
+    - Cardenas
   first_name:
     - Camilo
-    - A.
+    - Camilo A.
+    - Camilo Alberto
+    - C. A.
+    - C.
 
   style: apa
   locale: en
@@ -319,7 +328,7 @@ filtered_bibtex_keywords:
   - video
   - website
 
-max_author_limit: 3
+max_author_limit: 4
 more_authors_animation_delay: 10
 
 enable_publication_thumbnails: true
@@ -361,11 +370,11 @@ lazy_loading_images: true
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics: false
+enable_google_analytics: true
 enable_cronitor_analytics: false
 enable_pirsch_analytics: false
 enable_openpanel_analytics: false
-enable_google_verification: false
+enable_google_verification: true
 enable_bing_verification: false
 enable_masonry: true
 enable_math: true
